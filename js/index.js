@@ -12,3 +12,10 @@ window.onscroll = () => {
     menu.classList.remove('fa-xmark');
     navbar.classList.remove('active');
 }
+
+let closeBtn = document.querySelector('.nav-close i');
+
+closeBtn.onclick = () => {
+    menu.classList.remove('fa-xmark');
+    navbar.classList.remove('active');
+};
